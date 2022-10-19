@@ -236,18 +236,45 @@ sup {
 }
 
 a {
-  color: #ffc800;
+  color: #61a3bd;
   text-decoration: underline;
 }
 a:hover {
-  color: #cca000;
+  color: #6d94a3;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
 }
+/* Featurettes
+------------------------- */
 
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+    .featurette-heading {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* Featurettes End
+------------------------- */
 pre,
 code,
 kbd,
