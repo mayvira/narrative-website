@@ -275,6 +275,23 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 
 /* Featurettes End
 ------------------------- */
+
+/* Carousel
+------------------------- */
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Carousel End
+------------------------- */
+
 pre,
 code,
 kbd,
