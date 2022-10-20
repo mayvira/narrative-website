@@ -11401,6 +11401,14 @@ p {
   letter-spacing: 0.0625em;
   text-transform: uppercase;
 }
+#mainNav .navbar-brand:hover {
+color: #a7bfc8;
+font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-weight: 700;
+letter-spacing: 0.0625em;
+text-transform: uppercase;
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
 #mainNav .navbar-brand img {
   height: 1.5rem;
 }
@@ -11411,7 +11419,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #a7bfc8;
 }
 
 @media (min-width: 992px) {
@@ -11454,12 +11462,37 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/bristoldockheader2.jpg");
+  background-color: #000;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
 }
+
+header.heroimagehome {
+  background-image: url("../assets/img/bristoldockheader2.jpg");
+}
+
+header.heroimagedayone {
+  background-image: url("../assets/img/citydockheader.jpg");
+}
+
+header.heroimagedaytwo {
+  background-image: url("../assets/img/vangoghheader.jpg");
+}
+
+header.heroimagedaythree {
+  background-image: url("../assets/img/cliftonbridge2.jpg");
+}
+
+header.heroimagedayfour {
+  background-image: url("../assets/img/queensquare.jpg");
+}
+
+header.heroimagedayfive {
+  background-image: url("../assets/img/museumplane.jpg");
+}
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
