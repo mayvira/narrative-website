@@ -11481,6 +11481,7 @@ header.masthead {
   background-size: cover;
 }
 
+/*https://www.pexels.com/photo/a-bristol-packet-boats-sailing-near-the-concrete-buildings-11097981/*/
 header.heroimagehome {
   background-image: url("../assets/img/bristoldockheader2.jpg");
 }
@@ -11493,8 +11494,9 @@ header.heroimagedaytwo {
   background-image: url("../assets/img/vangoghheader.jpg");
 }
 
+/*https://unsplash.com/photos/uXhaHtQuLr0*/
 header.heroimagedaythree {
-  background-image: url("../assets/img/cliftonbridge2.jpg");
+  background-image: url("../assets/img/cliftonbridge2.jpg"); 
 }
 
 header.heroimagedayfour {
