@@ -11554,29 +11554,6 @@ header.masthead .masthead-heading {
     text-shadow: 5px 5px rgba(17, 19, 20, 0.5);
   }
 
-  .typewriter h1 {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em whitesmoke; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: whitesmoke; }
-  }
-
 header.masthead .masthead-heading-typewriter {
   font-size: 6rem;
   font-weight: 700;
@@ -11587,7 +11564,7 @@ header.masthead .masthead-heading-typewriter {
   text-shadow: 5px 5px rgba(17, 19, 20, 0.5);
 
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em whitesmoke; /* The typwriter cursor */
+  border-right: .15em whitesmoke; /* The typewriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .08em; /* Adjust as needed */
